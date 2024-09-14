@@ -4,4 +4,9 @@
 @import 'reset';
 @import 'variables';
 
-@import 'blocks/intro.scss'
+@import 'blocks/intro.scss';
+@import 'blocks/features.scss';
+
+.container{
+    margin: 0;
+}

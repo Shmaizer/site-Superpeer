@@ -1,0 +1,10 @@
+.main-features{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    &__info{
+        min-height: 250px;
+        background: rgb(255,249,232);
+        background: linear-gradient(180deg, rgba(255,249,232,1) 50%, rgba(255,255,255,1) 100%);
+    }
+}
