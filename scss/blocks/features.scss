@@ -1,50 +1,44 @@
-
-svg{
-    margin-bottom: -100px;
-}
-
-.main-description{
-    font-family: 'Roboto',sans-serif;
-    
-    background: linear-gradient(180deg, rgba(255,249,232,1) 50%, rgba(255,255,255,1) 100%);
-    margin-bottom: 120px;
-    &--title{
-        margin-bottom: 10px;
-        text-align: center;
-        font-size: 52px;
-        font-weight: 400;
-    }
-    &--text{
-        text-align: center;
-        margin: 0 auto;
-        width: 35%;
-        font-size: 20px;
-        color: #555555;
-    }
-    &__container{
-        display: flex;
-        &--item{
-            margin: 100px 0 110px 420px ;
+.features{
+    .main-features{
+        &--title{
+            font-family: 'Roboto',sans-serif;
+            text-align: center;
+            font-size: 55px;
+            font-weight: 400;
+        }
+        &_list{
             display: flex;
-            flex-direction: row-reverse;
-            &-textContent{
-                margin-top: 80px;
-                margin-left: 50px;
-                max-width: 300px;
-                max-height: 250px;
-                &-title{
-                    font-size: 22px;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            gap: 55px;
+            &--item{
+                margin-top: 5px;
+                width: 320px;
+                height: 210px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                img{
+                    padding: 0;
+                    margin: 10px 0;
+                }
+                .item_title{
+                    font-family: 'Roboto',sans-serif;
                     font-weight: 400;
+                    font-size: 22px;
+                    margin: 10px auto;
                 }
-                &-text{
-                    margin-top: 5px;
-                    font-size: 18px;
+                .item_text{
+                    font-family: 'Roboto',sans-serif;
+                    font-weight: 400;
                     color: #555555;
+                    text-align: center;
+                    margin:0 20px;
                 }
-                
             }
-            &-phoneCalendarFrame{
-            }
+            
+
         }
     }
 }

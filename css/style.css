@@ -94,11 +94,12 @@ svg {
 }
 .main-description__container {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .main-description__container--item {
-  margin: 100px 0 110px 420px;
+  margin: 50px 0 220px 200px;
   display: flex;
-  flex-direction: row-reverse;
 }
 .main-description__container--item-textContent {
   margin-top: 80px;
@@ -115,6 +116,182 @@ svg {
   font-size: 18px;
   color: #555555;
 }
+.main-description__container--item2 {
+  margin: 50px 0 0 200px;
+  display: flex;
+}
+.main-description__container--item2 .img {
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 95px;
+}
+.main-description__container--item2-textContent {
+  margin-top: 80px;
+  margin-left: 50px;
+  max-width: 300px;
+  max-height: 250px;
+}
+.main-description__container--item2-textContent-title {
+  font-size: 22px;
+  font-weight: 400;
+}
+.main-description__container--item2-textContent-text {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #555555;
+}
+.main-description__container--item3 {
+  margin: -60px 0 0 610px;
+  display: flex;
+}
+.main-description__container--item3 .img {
+  margin: -300px 0 40px 0;
+  z-index: 1;
+}
+.main-description__container--item3-textContent {
+  margin-top: 80px;
+  margin-left: 50px;
+  max-width: 300px;
+  max-height: 250px;
+}
+.main-description__container--item3-textContent-title {
+  font-size: 22px;
+  font-weight: 400;
+}
+.main-description__container--item3-textContent-text {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #555555;
+}
+
+.main-liveStreamsDesc {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(180deg, #F0ECFF 50%, rgb(255, 255, 255) 100%);
+  margin-bottom: 250px;
+}
+.main-liveStreamsDesc--title {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 400;
+}
+.main-liveStreamsDesc--text {
+  text-align: center;
+  margin: 0 auto;
+  width: 35%;
+  font-size: 20px;
+  color: #555555;
+}
+.main-liveStreamsDesc__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.main-liveStreamsDesc__container--item {
+  margin: 50px 0 220px 200px;
+  display: flex;
+}
+.main-liveStreamsDesc__container--item-textContent {
+  margin-top: 80px;
+  margin-left: 50px;
+  max-width: 300px;
+  max-height: 250px;
+}
+.main-liveStreamsDesc__container--item-textContent-title {
+  font-size: 22px;
+  font-weight: 400;
+}
+.main-liveStreamsDesc__container--item-textContent-text {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #555555;
+}
+.main-liveStreamsDesc__container--item2 {
+  margin: 50px 0 0 200px;
+  display: flex;
+}
+.main-liveStreamsDesc__container--item2 .img {
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 95px;
+}
+.main-liveStreamsDesc__container--item2-textContent {
+  margin-top: 80px;
+  margin-left: 50px;
+  max-width: 300px;
+  max-height: 250px;
+}
+.main-liveStreamsDesc__container--item2-textContent-title {
+  font-size: 22px;
+  font-weight: 400;
+}
+.main-liveStreamsDesc__container--item2-textContent-text {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #555555;
+}
+.main-liveStreamsDesc__container--item3 {
+  margin: -60px 0 0 610px;
+  display: flex;
+}
+.main-liveStreamsDesc__container--item3 .img {
+  margin: -290px 0 40px 0;
+  z-index: 1;
+}
+.main-liveStreamsDesc__container--item3-textContent {
+  margin-top: 80px;
+  margin-left: 50px;
+  max-width: 300px;
+  max-height: 250px;
+}
+.main-liveStreamsDesc__container--item3-textContent-title {
+  font-size: 22px;
+  font-weight: 400;
+}
+.main-liveStreamsDesc__container--item3-textContent-text {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #555555;
+}
+
+.features .main-features--title {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 400;
+}
+.features .main-features_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 55px;
+}
+.features .main-features_list--item {
+  margin-top: 5px;
+  width: 320px;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.features .main-features_list--item img {
+  padding: 0;
+  margin: 10px 0;
+}
+.features .main-features_list--item .item_title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  margin: 10px auto;
+}
+.features .main-features_list--item .item_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #555555;
+  text-align: center;
+  margin: 0 20px;
+}
+
 .container {
   flex-direction: column !important;
 }

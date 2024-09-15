@@ -1,0 +1,97 @@
+
+svg{
+    margin-bottom: -100px;
+}
+
+.main-description{
+    font-family: 'Roboto',sans-serif;
+    background: linear-gradient(180deg, rgba(255,249,232,1) 50%, rgba(255,255,255,1) 100%);
+    margin-bottom: 120px;
+    &--title{
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 52px;
+        font-weight: 400;
+    }
+    &--text{
+        text-align: center;
+        margin: 0 auto;
+        width: 35%;
+        font-size: 20px;
+        color: #555555;
+    }
+    &__container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        &--item{
+            margin: 50px 0 220px 200px ;
+            display: flex;
+            &-textContent{
+                margin-top: 80px;
+                margin-left: 50px;
+                max-width: 300px;
+                max-height: 250px;
+                &-title{
+                    font-size: 22px;
+                    font-weight: 400;
+                }
+                &-text{
+                    margin-top: 5px;
+                    font-size: 18px;
+                    color: #555555;
+                }
+                
+            }
+        }
+        &--item2{
+            margin: 50px 0 0 200px ;
+            display: flex;
+            .img{
+                position: absolute;
+                margin-top: -500px;
+                margin-left: 95px;
+            }
+            &-textContent{
+                margin-top: 80px;
+                margin-left: 50px;
+                max-width: 300px;
+                max-height: 250px;
+                &-title{
+                    font-size: 22px;
+                    font-weight: 400;
+                }
+                &-text{
+                    margin-top: 5px;
+                    font-size: 18px;
+                    color: #555555;
+                }
+                
+            }
+        }
+        &--item3{
+            margin: -60px 0 0 610px ;
+            display: flex;
+            .img{
+                margin: -300px 0 40px 0;
+                z-index: 1;
+            }
+            &-textContent{
+                margin-top: 80px;
+                margin-left: 50px;
+                max-width: 300px;
+                max-height: 250px;
+                &-title{
+                    font-size: 22px;
+                    font-weight: 400;
+                }
+                &-text{
+                    margin-top: 5px;
+                    font-size: 18px;
+                    color: #555555;
+                }
+                
+            }
+        }
+    }
+}

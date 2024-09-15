@@ -6,7 +6,10 @@
 @import 'variables';
 
 @import 'blocks/intro.scss';
+@import 'blocks/description.scss';
+@import 'blocks/liveStreamsDesc.scss';
 @import 'blocks/features.scss';
+
 
 .container{
     flex-direction: column !important;
