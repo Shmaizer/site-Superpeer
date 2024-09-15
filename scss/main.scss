@@ -1,6 +1,7 @@
-@import 'core';
+
 @import 'fonts';
 @import 'mixins';
+@import 'core';
 @import 'reset';
 @import 'variables';
 
@@ -8,5 +9,5 @@
 @import 'blocks/features.scss';
 
 .container{
-    margin: 0;
+    flex-direction: column !important;
 }

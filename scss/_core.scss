@@ -1,0 +1,4 @@
+
+.wrap {
+    @include min-max(320px, 1440px);
+  }
