@@ -31,6 +31,10 @@
   padding: 10px 30px;
   background-color: white;
 }
+.header__btns--sign_in:hover {
+  box-shadow: 4px 4px 0px 0px #FFD338;
+  transition: 0.5s;
+}
 
 .dashboard {
   margin-top: 50px;
@@ -65,6 +69,10 @@
   padding: 15px 35px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+}
+.dashboard__btn:hover {
+  box-shadow: 3px 3px 0px 0px black;
+  transition: 0.8s;
 }
 .dashboard__pictures {
   display: flex;
@@ -345,8 +353,67 @@ svg {
   color: #999999;
 }
 
+.requestInvite .main-requestInvite {
+  font-family: "Roboto", sans-serif;
+  padding: 200px 0px;
+}
+.requestInvite .main-requestInvite--title {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.requestInvite .main-requestInvite--text {
+  text-align: center;
+  color: #555555;
+  margin: 40px;
+  font-size: 20px;
+  padding-inline: 450px;
+  margin: 20px;
+}
+.requestInvite .main-requestInvite--btn {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 15px 20px;
+  background-color: #FFD338;
+  border: 0cap;
+  border-radius: 8px;
+  display: flex;
+  margin: 0 auto 10px;
+}
+.requestInvite .main-requestInvite--btn:hover {
+  box-shadow: 2px 2px 0px 0px black;
+  transition: 0.8s;
+}
+
+.footer .footer-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.footer .footer-menu .footer-menu__linkMenu {
+  display: flex;
+  gap: 25px;
+  cursor: grab;
+}
+.footer .footer-menu .footer-menu__linkMenu :hover {
+  text-decoration: underline;
+}
+.footer .footer-menu .footer-menu__logo {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 20px;
+}
 .container {
   flex-direction: column !important;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
